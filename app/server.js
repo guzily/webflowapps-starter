@@ -7,7 +7,7 @@ dotenv.config();
 
 const { PORT, CLIENT_ID, CLIENT_SECRET } = process.env;
 
-const port = PORT || 3000;
+const port = PORT || 6666;
 const webflow = new Webflow();
 
 // server static assets from public folders
